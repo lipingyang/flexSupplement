@@ -1,0 +1,41 @@
+table{
+	width: 950px;
+	height: 100px;
+	margin: 20px auto 30px;
+	border-collapse:collapse
+}
+td{
+	height: 195px;
+	margin-top: 30px;
+	position: relative;
+}
+.teacher-pic{
+	height: 160px;
+	width: 125px;
+	position: absolute;z-index: 2;
+	left: 10px;top: 17.5px;
+	background-color: #fff;
+	border: 2px solid #74a1ca;
+	cursor: pointer;
+}
+.teacher-pic img{
+	width: 113px;
+	height: 148px;
+	display: block;
+	margin: 6px 0 0 6px;
+}
+.teacher-introduce{
+	height: 90px;
+	width: 150px;
+	position: absolute;z-index: 1;
+	left: 0;bottom: 30px;
+	background-color: #74a1ca;
+	border-radius: 5px;
+	padding: 30px 0 0 150px;
+	color: #fff;
+	line-height: 20px;
+}
+.introduce-name{
+	font-size: 16px;
+	font-family: "microsoft yahei";
+}

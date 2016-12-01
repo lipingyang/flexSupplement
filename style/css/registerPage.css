@@ -1,0 +1,90 @@
+.left-table{
+	width:540px;
+	margin-top: 30px;
+}
+.left-table td{
+	height: 40px;
+}
+.td1{
+	height: 40px;
+	width: 140px;
+	line-height: 40px;
+	text-align: right;
+}
+.mi{
+	color: red;
+}
+.td2{
+	width: 270px
+}
+.td2 input{
+	width: 100%;
+	height: 30px;
+}
+.td3{
+	width: 125px;
+	text-align: left;
+	padding-left: 10px;
+}
+/*照片上传*/
+.pic-upload{
+	width: 240px;
+	height: 240px;
+	margin:30px 200px 0 0;
+}
+.upload-txt{
+	width: 80px;
+	line-height: 30px;
+}
+.upload-image{
+	width: 160px;
+	height: 240px;
+	color: #878787;
+	line-height: 20px;
+}
+.upload-image img{
+	width: 142px;
+	height: 162px;
+	cursor: pointer;
+}
+/*工作经验*/
+.work-experence{
+	margin-top: 5px;
+	overflow: hidden;
+}
+.work-experence textarea{
+	width: 740px;
+	height: 175px;
+	resize: none;
+}
+/*其他*/
+.others{
+	margin-top: 10px;
+	overflow: hidden;
+}
+.others textarea{
+	width: 740px;
+	height:100px;
+	resize: none;
+}
+.others p{
+	padding-left: 140px;
+	line-height: 30px;
+	color: #ff0000;
+}
+/*确认按钮*/
+.sure-box{
+	width: 1000px;
+	height: 40px;
+}
+.sure-btn{
+	height: 100%;
+	background-color: #009582;
+	width: 160px;
+	margin: 0 auto;
+	color: #fff;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 5px;
+	cursor: pointer;
+}

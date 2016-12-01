@@ -1,0 +1,28 @@
+.arrow-li{
+	margin: 70px auto 0;
+	width: 360px;
+}
+.arrow-li li{
+	width: 360px;
+	height: 70px;
+	margin-top: 1px;
+	text-align: center;
+	font-size: 16px;
+	font-family: "microsoft yahei";
+	line-height: 70px;
+	cursor: pointer;
+}
+.gray-box{
+	border:2px solid #eeecec;
+}
+.gray-box:hover{
+	border:2px solid #16d395;
+}
+.arrow-bg{
+	border: none;
+	background: url(../img/arrowBg.png) no-repeat center;
+	background-size: 13px 70px;
+}
+.title-gray{
+	color: #939294;
+}

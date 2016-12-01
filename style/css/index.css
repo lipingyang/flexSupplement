@@ -1,0 +1,362 @@
+
+/*banner*/
+.banner{
+	height: 240px;
+	width: 100%;
+	background: url(../img/bannerBg.png) center no-repeat;
+	min-width: 1000px;
+}
+.banner-middle{
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+.banner-txt{
+	width: 240px;
+	height: 104px;
+	margin-top: 68px;
+	background: url(../img/bannerTxt.png) no-repeat;
+}
+.banner-box{
+	width: 215px;
+	height: 210px;
+	padding-top: 5px;
+	background-color: #3d95e2;
+	margin-top: 12.5px;
+}
+.banner-box-long{
+	width: 194px;
+	height: 35px;
+	background-color: #fff;
+	margin: 5px auto 0;
+	background-repeat: no-repeat;
+	background-position: 10px center;
+}
+.banner-box-long input{
+	height: 22px;
+	width: 140px;
+	padding-left:10px ;
+	margin-top: 5.5px;
+	border: none;
+	border-left: 1px solid #bcb7b7;
+	float: right;
+}
+.people{
+	background-image: url(../img/grayPeople.png);
+}
+.lock{
+	background-image: url(../img/grayLock.png);
+}
+.banner-box-long-blue{
+	width: 194px;
+	height: 35px;
+	margin: 5px auto 0;
+	font-size: 12px;
+}
+.banner-box-long-blue input{
+	width: 90px;
+	padding-left: 10px;
+	height: 35px;
+	border: none;
+}
+.get-code{
+	width: 90px;
+	height: 35px;
+	background-color: #edc31c;
+	color: #fff;
+	line-height: 35px;
+	text-align: center;
+	font-size: 12px;
+	cursor: pointer;
+}
+.auto-login{
+	width: 80px;
+	height: 20px;
+
+}
+.auto-txt{
+	line-height: 20px;
+	margin-left: 5px;
+	color: #fff;
+}
+.auto-box{
+	width: 12px;
+	height: 12px;
+	background-color: #fff;
+	margin-top: 4px;
+	cursor: pointer;
+	color: #000;
+	text-align: center;
+}
+.remember{
+	width: 100%;
+	height: 100%;
+	background: url(../img/remem.png) center;
+	background-size: 12px 12px;
+	display: none;
+}
+.cannot-login{
+	height: 20px;
+	line-height: 20px;
+	color: #fff;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.banner-btn{
+	width: 100px;
+	height: 35px;
+	background-color: #285f92;
+	color: #fff;
+	border-radius: 3px;
+	cursor: pointer;
+}
+/*主体部分*/
+.main{
+	width: 1000px;
+	height: 215px;
+	margin: 20px auto 0;
+}
+/*左侧轮播*/
+/* 效果CSS开始 */
+
+.slideBox {
+	width: 280px;
+	height: 215px;
+	overflow: hidden;
+	position: relative;
+}
+
+.slideBox .hd {
+	height: 15px;
+	overflow: hidden;
+	position: absolute;
+	right: 0;
+	bottom: 55px;
+	z-index: 1;
+}
+
+.slideBox .hd ul {
+	overflow: hidden;
+	zoom: 1;
+	float: right;
+}
+
+.slideBox .hd ul li {
+	float: left;
+	margin-right: 5px;
+	width: 12px;
+	height: 12px;
+	background: #fff;
+	cursor: pointer;
+	border-radius: 50%;
+	opacity: .88
+}
+
+.slideBox .hd ul li.on {
+	background: #f56813;
+}
+
+.slideBox .bd {
+	position: relative;
+	height: 100%;
+	z-index: 0;
+}
+
+.slideBox .bd li {
+	zoom: 1;
+	vertical-align: middle;
+}
+
+.slideBox .bd img {
+	width: 280px;
+	height: 165px;
+	display: block;
+	cursor: pointer;
+}
+
+.news {
+	width: 280px;
+	height: 50px
+}
+
+.news-date {
+	width: 60px;
+	height: 50px;
+	background-color: #3f6796;
+	color: #fff;
+	text-align: center;
+	font-family: "microsoft yahei";
+}
+
+.news-detail {
+	width: 210px;
+	padding-left: 10px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #fff;
+	overflow: hidden;
+}
+/*主体中间部分*/
+.main-center{
+	width: 430px;
+	height: 215px;
+	margin-left: 5px;
+	background-color: #fff;
+}
+.main-center-title{
+	width: 428px;
+	height: 38px;
+	border: 1px solid #e4e1e1;
+	background-color: #ededed;
+}
+.main-center-title span{
+	height: 33px;
+	width: 80px;
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 33px;
+	margin-top: 4px;
+	cursor: pointer;
+}
+.white-txt{
+	background-color: #ededed;
+	color: #000;
+	border: 1px solid #ededed;
+}
+.blue-txt{
+	background:url(../img/blueTxt.png);
+	color: #fff;
+	border: 1px solid #4882b5;
+}
+.black-more{
+	width: 40px;
+	height: 11px;
+	background: url(../img/blackMore.png) no-repeat;
+	margin: 14.5px 10px 0 0;
+	cursor: pointer;
+}
+.notice{
+	background-color: #fff;
+}
+.notice li{
+	height: 28px;
+	line-height: 28px;
+	cursor: pointer;
+}
+.notice-dotted{
+	color: #d4d4d4;
+	margin-left: 5px;
+}
+.notice-content{
+	width: 250px;
+	margin-left: 5px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.notice-time{
+	margin-right: 10px;
+	color: #818181;
+}
+/*主体右侧部分*/
+.main-right{
+	width: 265px;
+	height: 100%;
+}
+.right-title{
+	width: 100%;
+	height: 30px;
+	background: url(../img/foreignElegant.png) center no-repeat;
+}
+.right-more{
+	width: 40px;
+	height: 11px;
+	background: url(../img/blackMore.png);
+	margin-top: 15px;
+}
+.right-pic{
+	width: 100%;
+	height: 180px;
+	padding-top: 5px;
+	background: url(../img/picBg.png);
+}
+
+.wrapper{
+  	margin:0px auto;
+  	width: 240;
+  	height: 150px;
+}
+.teacher-banner{
+  	width: 240px;
+  	height: 150px;
+  	overflow: hidden;
+  	margin: 12.5px auto 0;
+}
+.imgList{
+  	width:240px;
+  	height:150px;
+  	z-index: 10;
+}
+.imgList li{
+  	width: 240px;
+  	height: 150px;
+  	opacity: 1;
+  	position: relative;
+}
+.shadow-black{
+	height: 28px;
+	width: 240px;
+	background-color: #000;
+	position: absolute;bottom: 0;
+	opacity: .5;
+	filter:Alpha(opacity=50);
+	
+}
+.shadow-txt{
+	height: 28px;
+	width: 240px;
+	font-size: 14px;
+	position: absolute;bottom: 0;
+	color: #fff;
+	line-height: 28px;
+	text-align: center;
+}
+.txt-english{
+	font-family: "microsoft yahei";
+}
+/*学校图标部分*/
+.school-icon{
+	height: 160px;
+	width: 1000px;
+	margin: 15px auto 0;
+	background-color: #fff;
+	border-top: 2px solid #17d394;
+}
+.school-icon ul li{
+	width: 100px;
+	height: 100px;
+	margin: 20px 0 0 10px;
+	float: left;
+	cursor: pointer;
+}
+.school-box{
+	width: 70px;
+	height: 70px;
+	background-color: #fff;
+	border: 1px solid #e8e8e8;
+	margin-left: 14px;
+}
+.school-box img{
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin: 10px 0 0 10px;
+}
+.school-icon p{
+	margin-top: 12px;
+}
+footer{
+	position: fixed;bottom: 0;
+}

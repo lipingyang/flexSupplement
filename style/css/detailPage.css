@@ -1,0 +1,227 @@
+.artical-box {
+	width: 960px;
+	margin: 30px auto;
+	background-color: #fff;
+	padding: 0 20px 0 20px;
+	padding-bottom: 75px;
+	min-height: 700px;
+}
+
+.artical-head {
+	width: 100%;
+	height: 90px;
+	background: url(../img/line_img.png) repeat-x bottom;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.p-title {
+	font-size: 18px;
+	font-family: "microsoft yahei";
+	line-height: 70px;
+}
+
+.p-three {
+	font-size: 12px;
+	color: #909090;
+}
+
+.p-three span {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.artical-content span {
+	display: block;
+	font-size: 12px;
+	line-height: 20px;
+	text-indent: 24px;
+}
+
+
+/*百校结对圆圈图*/
+
+.pic-box {
+	width: 640px;
+	height: 500px;
+	margin: 120px auto 0;
+	position: relative;
+}
+
+.middle-box {
+	width: 152px;
+	height: 152px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -75px;
+	background: url(../img/circleBg.png) 152px 152px;
+}
+
+.bigPicture {
+	display: block;
+	width: 130px;
+	height: 130px;
+	margin: 8px auto;
+}
+.p-gray{
+	color: #a9a9a9;
+}
+
+.smallPicture {
+	width: 100px;
+	height: 100px;
+}
+
+.pic-one {
+	position: absolute;
+	top: -165px;
+	left: 25px;
+	width: 100px;
+	height: 165px;
+	background: url(../img/pic-one.png) bottom center no-repeat;
+	text-align: right;
+}
+.pic-one div{
+	margin-top: 10px;
+	line-height: 20px;
+	text-align: right;
+}
+
+.pic-two {
+	position: absolute;
+	left: 150px;
+	top: -148px;
+	background: url(../img/pic-two.png) no-repeat bottom center;
+	transform: rotate(45deg);
+	height: 200px;
+	width: 100px;
+	text-align: right;
+}
+.pic-two div{
+	margin-top: 20px;
+	line-height: 20px;
+	width: 100px;
+	margin-left: 10px;
+	transform: rotate(-45deg);
+	text-align: right;
+}
+.pic-two img{
+	transform: rotate(-45deg);
+}
+.pic-three {
+	position: absolute;
+	left: 150px;
+	top: 20px;
+	background: url(../img/pic-three.png) no-repeat left center;
+	height: 100px;
+	width: 235px;
+	text-align: right;
+}
+.pic-three div{
+	line-height: 20px;
+	width: 100px;
+	margin-top: -50px;
+	margin-left: 20px;
+	text-align: right;
+}
+.pic-four {
+	position: absolute;
+	left: 147px;
+	top: 100px;
+	background: url(../img/pic-four.png) no-repeat bottom center;
+	height: 200px;
+	width: 100px;
+	text-align: right;
+	transform: rotate(135deg);
+}
+.pic-four div{
+	line-height: 20px;
+	width: 100px;
+	margin-top: 30px;
+	margin-left: 60px;
+	transform: rotate(-135deg);
+	text-align: right;
+}
+.pic-four img{
+	transform: rotate(-135deg);
+}
+.pic-five{
+	position: absolute;
+	left: 25px;
+	width: 100px;
+	height: 165px;
+	background: url(../img/pic-one.png) bottom center no-repeat;
+	text-align: right;
+	transform: rotate(180deg);top: 150px;
+}
+.pic-five div{
+	margin-top: 10px;
+	line-height: 20px;
+	transform: rotate(180deg);
+	text-align: left;
+}
+.pic-five img{
+	transform: rotate(-180deg);
+}
+.pic-six{
+	position: absolute;
+	background: url(../img/pic-two.png) no-repeat bottom center;
+	height: 200px;
+	width: 100px;
+	text-align: right;
+	transform: rotate(225deg);top: 96px;left: -100px;
+}
+.pic-six div{
+	margin-top: 20px;
+	line-height: 20px;
+	width: 100px;
+	margin-left: 10px;
+	transform: rotate(-225deg);
+	text-align: left;
+}
+.pic-six img{
+	transform: rotate(-225deg);
+}
+.pic-seven {
+	position: absolute;
+	left: -168px;
+	top: -45px;
+	background: url(../img/pic-seven.png) no-repeat bottom center;
+	transform: rotate(270deg);
+	height: 235px;
+	width: 100px;
+	text-align: right;
+}
+.pic-seven div{
+	margin-top:5px;
+	line-height: 20px;
+	width: 100px;
+	margin-left: 15px;
+	transform: rotate(-270deg);
+	text-align: right;
+}
+.pic-seven img{
+	transform: rotate(-270deg);
+}
+.pic-eight {
+	position: absolute;
+	left: -95px;
+	top: -150px;
+	background: url(../img/pic-eight.png) no-repeat bottom center;
+	height: 200px;
+	width: 100px;
+	text-align: right;
+	transform: rotate(-45deg);
+}
+.pic-eight div{
+	line-height: 20px;
+	width: 100px;
+	transform: rotate(45deg);
+	text-align: left;
+	margin-top: 35px;
+	margin-left: -20px;
+}
+.pic-eight img{
+	transform: rotate(45deg);
+}

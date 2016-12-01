@@ -1,0 +1,395 @@
+*:focus {
+	outline: none;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*科e互联特效基本框架CSS*/
+
+body,
+ul,
+dl,
+dd,
+dt,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+textarea,
+form,
+select,
+fieldset,
+table,
+td,
+div,
+input {
+	margin: 0;
+	padding: 0;
+	-webkit-text-size-adjust: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 12px;
+	font-weight: normal
+}
+
+body>div {
+	margin: 0 auto
+}
+
+div {
+	text-align: left
+}
+
+ul,
+ol,
+li {
+	list-style-type: none;
+	vertical-align: 0
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+.f-12 {
+	font-size: 12px;
+}
+
+.f-14 {
+	font-size: 14px;
+}
+
+.f-15 {
+	font-size: 15px;
+}
+
+.f-30 {
+	font-size: 30px;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+body {
+	background-color: #f2f2f2;
+}
+
+
+/*顶部欢迎*/
+
+.top-head {
+	width: 100%;
+	height: 36px;
+	background-color: #e3eaf0;
+	line-height: 36px;
+	font-size: 12px;
+	min-width: 1000px;
+}
+
+.welcome {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.welcome {
+	width: 1000px;
+	height: 35px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.welcome li {
+	float: right;
+	list-style: none;
+	margin-left: 10px;
+}
+
+.downdrop{
+	cursor: pointer;
+}
+
+.welcome span {
+	line-height: 35px;
+	font-size: 12px;
+}
+
+.denglu {
+	overflow: auto;
+}
+
+.f-register a{
+	color: #FFFFFF;
+	display: block;
+}
+
+.f-register {
+	height: 35px;
+	width: 100px;
+	background: #147a6c;
+	color: #FFFFFF;
+	line-height: 35px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.denglu img {
+	padding-top: 5px;
+	padding-right: 5px;
+}
+
+.head-menu {
+	width: 78px;
+	height: 65px;
+	border: 1px solid #d6d6d6;
+	box-shadow: 0 0 3px #21acda;
+	padding-top: 5px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+	position: absolute;
+	right: 100px;
+	top: 35px;
+	z-index: 100;
+	display: none;
+	background-color: #fff;
+}
+
+.head-menu p:hover {
+	background-color: #33c492;
+	color: white;
+}
+
+
+/*logo*/
+
+.logo {
+	width: 100%;
+	height: 75px;
+	min-width: 1000px;
+}
+
+.logo-middle {
+	width: 1000px;
+	margin: 0 auto;
+	height: 100%;
+	background: url(../img/logo.png) left center no-repeat;
+	position: relative;
+}
+
+.search {
+	margin-top: 22.5px;
+	position: absolute;
+	right: 0;
+	z-index: 0;
+}
+
+.search-login {
+	height: 28px;
+	border: none;
+	padding-left: 5px;
+	border: 1px solid #c5c3c3;
+	border-right: none;
+}
+
+.logo-search img {
+	cursor: pointer;
+}
+
+
+/*导航*/
+
+.nav {
+	width: 100%;
+	height: 42px;
+	background-color: #17d394;
+	min-width: 1000px;
+}
+
+.nav-middle {
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.nav-middle li {
+	width: 125px;
+	height: 100%;
+	color: #fff;
+	font-size: 14px;
+	text-align: center;
+	line-height: 42px;
+	float: left;
+	margin-right: 20px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.nav-middle li a {
+	display: block;
+	color: #fff;
+}
+
+.nav-middle li:hover {
+	background-color: #029b68;
+}
+
+
+/*footer*/
+
+footer {
+	width: 100%;
+	height: 74px;
+	background-color: #0c7b7c;
+	min-width: 1000px;
+}
+
+.foot-middle {
+	width: 1000px;
+	height: 54px;
+	margin: 0 auto;
+	color: #aec9ca;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.hundred-box {
+	width: 1000px;
+	margin: 30px auto;
+	background-color: #fff;
+	padding-bottom: 20px;
+	min-height: 700px;
+	height: auto;
+	overflow: hidden;
+}
+
+.hundred-head {
+	height: 40px;
+	width: 100%;
+	border-bottom: 1px solid #f2f2f2;
+}
+
+.head-name {
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	line-height: 40px;
+	padding-left: 15px;
+	cursor: pointer;
+}
+
+.head-loction {
+	font-size: 12px;
+	background: url(../img/loction.png) no-repeat left center;
+	height: 16px;
+	margin-top: 10px;
+	color: #949393;
+	line-height: 16px;
+	padding-left: 20px;
+	margin-right: 15px;
+}
+
+.head-loction span {
+	cursor: pointer;
+}
+
+
+/*二级搜索*/
+
+.search-one {
+	height: 30px;
+	width: 80px;
+	background-color: #74a1ca;
+	line-height: 30px;
+	color: #fff;
+	padding-left: 8px;
+	position: relative;
+}
+
+.search-one ul {
+	position: absolute;
+	top: 30px;
+	left: -1px;
+	z-index: 100;
+	width: 88px;
+	background-color: #fff;
+	padding-bottom: 10px;
+	border: 1px solid #eeeeee;
+	display: none;
+}
+
+.search-one span {
+	display: inline-block;
+	width: 50px;
+	text-align: center;
+}
+
+.search-one ul li {
+	height: 20px;
+	width: 100%;
+	line-height: 20px;
+	font-size: 12px;
+	text-align: center;
+	margin-top: 10px;
+	color: #000;
+	cursor: pointer;
+}
+
+.search-one ul li:hover {
+	color: #fff;
+	background-color: #33c492;
+}
+
+.search-one img {
+	cursor: pointer;
+}
+
+.job-second {
+	height: 30px;
+	width: 950px;
+	margin: 20px auto 0;
+}
+
+.search-two img {
+	cursor: pointer;
+}
+
+
+/*查看更多按钮*/
+
+.check-more {
+	width: 950px;
+	height: 40px;
+	margin: 0 auto;
+	background: url(../img/checkMoreBg.png) repeat-x center;
+}
+
+.check-more-btn {
+	width: 400px;
+	height: 40px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 40px;
+	background-color: #e3e3e3;
+	color: #444343;
+	cursor: pointer;
+}

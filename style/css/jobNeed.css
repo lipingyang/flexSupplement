@@ -1,0 +1,82 @@
+.hundred-box{
+	width: 1000px;
+	margin: 30px auto;
+	background-color: #fff;
+	padding-bottom: 20px;
+	min-height:700px;
+}
+.hundred-head{
+	height: 40px;
+	width: 100%;
+	border-bottom: 1px solid #f2f2f2;
+}
+.head-name{
+	font-family: "microsoft yahei";
+	font-size: 16px;
+	line-height: 40px;
+	padding-left: 15px;
+}
+.head-loction{
+	font-size: 12px;
+	background: url(../img/loction.png) no-repeat left center;
+	height:16px;
+	margin-top: 10px;
+	color: #949393;
+	line-height: 16px;
+	padding-left: 20px;
+	margin-right: 15px;
+}
+.head-loction span{
+	cursor: pointer;
+}
+.deep-btn{
+	background: #009582;
+	color: #fff;
+	height: 30px;
+	width: 130px;
+	border-radius: 5px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+.deep-btn:hover{
+	background: #0e7063;
+}
+/*表格*/
+table{
+	width: 950px;
+	margin: 20px auto 30px;
+	border-collapse:collapse;
+}
+table td{
+	height: 45px;
+	text-align: center;
+}
+.list-blue{
+	color: #fff;
+	background-color: #74a1ca;
+}
+.listbg{
+	background-image: url(../img/list-bg.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+.gray-tr{
+   border: 1px dashed #f2f2f2;
+   background-color: #fafafa;
+}
+.td1{
+	width: 150px;
+}
+.td2{
+	width: 310px;
+}
+.td3{
+	width: 150px;
+}
+.td4{
+	width: 150px;
+}
+.td5{
+	width: 190px;
+}
